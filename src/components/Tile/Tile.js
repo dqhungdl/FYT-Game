@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Modal, Button, Divider, Space } from "antd";
+import { Modal, Button, Space } from "antd";
 import { ClockCircleTwoTone, QuestionCircleTwoTone } from "@ant-design/icons";
 import {
   COLORS,

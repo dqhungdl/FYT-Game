@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import RowList from "../Row/RowList";
 import { TILES,COLORS } from "../../constants";
-import { Col, Row, Statistic, Space } from "antd";
+import { Col, Row, Statistic } from "antd";
 
 class Board extends Component {
   constructor() {
@@ -63,7 +63,7 @@ class Board extends Component {
               <div
                 style={{ fontWeight: "bold", fontSize: "20px", color: COLORS[1] }}
               >
-                Personal Branding Team:
+                Personal Branding Team
               </div>
             }
             valueStyle={{
@@ -78,7 +78,7 @@ class Board extends Component {
               <div
                 style={{ fontWeight: "bold", fontSize: "20px", color: COLORS[2] }}
               >
-                Time Management Team:
+                Time Management Team
               </div>
             }
             valueStyle={{
@@ -93,7 +93,7 @@ class Board extends Component {
               <div
                 style={{ fontWeight: "bold", fontSize: "20px", color: COLORS[3] }}
               >
-                Connection Team:
+                Connection Team
               </div>
             }
             valueStyle={{
@@ -108,7 +108,7 @@ class Board extends Component {
               <div
                 style={{ fontWeight: "bold", fontSize: "20px", color: COLORS[4] }}
               >
-                LinkedIn Team:
+                LinkedIn Team
               </div>
             }
             valueStyle={{
